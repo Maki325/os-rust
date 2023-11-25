@@ -6,4 +6,5 @@ build-std = ["core", "compiler_builtins"]
 target = "os-cargo-target.json"
 
 [target.'cfg(target_os = "none")']
+# runner = "./run.sh"
 runner = "bootimage runner"
